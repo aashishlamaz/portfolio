@@ -76,11 +76,16 @@
                 target="_blank"
                 class="home__social-icon"
               >
-                <i class="uil uil-linkedin-alt home__icon"></i>
+                <i class="uil uil-linkedin"></i>
               </a>
-
-               <a href="https://wa.me/9779869184958" target="_blank" class="home__social-icon">
-                  <i class="uil uil-whatsapp home__icon"></i>
+              <a
+                href="mailto:aashishlama805@gmail.com"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-mail-alt home__icon"></i>
+              </a>
+            </div>
             <div class="home__img">
               <svg
                 class="home__blob"
@@ -678,83 +683,40 @@
       </section>
 
       <!--===================== Contact Me =====================-->
-      <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Get in touch</span>
+   <div class="contact__buttons" style="display: flex; flex-wrap: wrap; gap: 1rem;">
+  <!-- WhatsApp Button -->
+  <a
+    href="https://wa.me/9779869184958"
+    target="_blank"
+    class="button button--flex"
+    title="Chat on WhatsApp"
+  >
+    WhatsApp
+    <i class="uil uil-whatsapp button__icon"></i>
+  </a>
 
-        <div class="contact__container container grid">
-          <div>
-            <div class="contact__information">
-              <i class="uil uil-calling contact__icon"></i>
+  <!-- Email Button -->
+  <a
+    href="mailto:aashishlama805@gmail.com?subject=Hello Aashish&body=Hi there!"
+    class="button button--flex"
+    title="Send an Email"
+  >
+    Email
+    <i class="uil uil-envelope button__icon"></i>
+  </a>
 
-              <div>
-                <h3 class="contact__title">Contact Me</h3>
-                <span class="contact__subtitle"
-                  ><a href="tel:6362243314"></a>+977 9869184958</span
-                >
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-envelope-minus contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle"
-                  >aashishlama805@gmail.com</span
-                >
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-map-marker contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Location</h3>
-                <span class="contact__subtitle"
-                  >Bhaisepati, Lalitpur, Nepal</span
-                >
-              </div>
-            </div>
-          </div>
-
-          <form action="" class="contact__form grid">
-            <div class="contact__inputs grid">
-              <div class="contact__content">
-                <label for="" class="content__label">Name</label>
-                <input type="text" class="contact__input" />
-              </div>
-
-              <div class="contact__content">
-                <label for="" class="content__label">Email</label>
-                <input type="Email" class="contact__input" />
-              </div>
-            </div>
-
-            <div class="contact__content">
-              <label for="" class="content__label">Message</label>
-              <textarea
-                name=""
-                id=""
-                cols="0"
-                rows="7"
-                class="contact__input"
-              ></textarea>
-            </div>
-
-            <div>
-              <a
-                href=" mailto: aashishlama805@gmail.com?subject=Testing out mailto! &body=This is only a test!"
-                class="button button--flex"
-              >
-                Send Message
-                <i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
+  <!-- Share Button -->
+  <button
+    type="button"
+    onclick="sharePage()"
+    class="button button--flex"
+    title="Share this page"
+    style="border: none; background: none; padding: 0;"
+  >
+    <span>Share</span>
+    <i class="uil uil-share-alt button__icon"></i>
+  </button>
+</div>
 
     <!--================== Footer ===============-->
     <footer class="footer">
@@ -769,7 +731,7 @@
 
           <ul class="footer__links">
             <li>
-              <a href="#qualification" class="footer__link">Qualification</a>
+              <a href="#qualification" class="footer__link">Experience</a>
             </li>
             <li>
               <a href="#portfolio" class="footer__link">Portfolio</a>
