@@ -19,9 +19,6 @@ This project is a minimalist "Contact Me" section for a personal portfolio websi
 - [Unicons](https://iconscout.com/unicons)
 - JavaScript (Web Share API)
 
-## 📷 Preview
-
-![screenshot](https://your-screenshot-link-if-needed.com)
 
 ## 🚀 Getting Started
 
